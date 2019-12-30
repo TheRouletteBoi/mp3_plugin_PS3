@@ -1,0 +1,31 @@
+﻿  main.cpp
+C:\Users\USER\Documents\Visual Studio 2013\Projects\mp3_plugin_PS3\mp3_plugin_PS3\utils.h(133,28): warning 1322: taking the address of a temporary
+  
+C:\Users\USER\Documents\Visual Studio 2013\Projects\mp3_plugin_PS3\mp3_plugin_PS3\natives.h(241): warning 942: missing return statement at end of non-void function "nativeCall<R>(unsigned int, NativeContext *) [with R=float]"
+            detected during:
+              C:\Users\USER\Documents\Visual Studio 2013\Projects\mp3_plugin_PS3\mp3_plugin_PS3\natives.h(49233,33): instantiation of "R nativeCall<R>(unsigned int, NativeContext *) [with R=float]" at line 282
+              C:\Users\USER\Documents\Visual Studio 2013\Projects\mp3_plugin_PS3\mp3_plugin_PS3\natives.h(49839,34): instantiation of "R invoke<R>(unsigned int) [with R=float]" at line 888
+  
+C:\Users\USER\Documents\Visual Studio 2013\Projects\mp3_plugin_PS3\mp3_plugin_PS3\natives.h(241): warning 942: missing return statement at end of non-void function "nativeCall<R>(unsigned int, NativeContext *) [with R=Vector3]"
+            detected during:
+              C:\Users\USER\Documents\Visual Studio 2013\Projects\mp3_plugin_PS3\mp3_plugin_PS3\natives.h(49243,33): instantiation of "R nativeCall<R>(unsigned int, NativeContext *) [with R=Vector3]" at line 292
+              C:\Users\USER\Documents\Visual Studio 2013\Projects\mp3_plugin_PS3\mp3_plugin_PS3\natives.h(50054,48): instantiation of "R invoke<R,T1>(unsigned int, T1) [with R=Vector3, T1=Cam]" at line 1103
+  
+C:\Users\USER\Documents\Visual Studio 2013\Projects\mp3_plugin_PS3\mp3_plugin_PS3\natives.h(241): warning 942: missing return statement at end of non-void function "nativeCall<R>(unsigned int, NativeContext *) [with R=Void]"
+            C:\Users\USER\Documents\Visual Studio 2013\Projects\mp3_plugin_PS3\mp3_plugin_PS3\natives.h(50236,2): detected during instantiation of "R nativeCall<R>(unsigned int, NativeContext *) [with R=Void]" at line 1285
+  
+C:\Users\USER\Documents\Visual Studio 2013\Projects\mp3_plugin_PS3\mp3_plugin_PS3\natives.h(241): warning 942: missing return statement at end of non-void function "nativeCall<R>(unsigned int, NativeContext *) [with R=BOOL]"
+            C:\Users\USER\Documents\Visual Studio 2013\Projects\mp3_plugin_PS3\mp3_plugin_PS3\natives.h(50320,9): detected during instantiation of "R nativeCall<R>(unsigned int, NativeContext *) [with R=BOOL]" at line 1369
+  
+C:\Users\USER\Documents\Visual Studio 2013\Projects\mp3_plugin_PS3\mp3_plugin_PS3\natives.h(241): warning 942: missing return statement at end of non-void function "nativeCall<R>(unsigned int, NativeContext *) [with R=Player]"
+            detected during:
+              C:\Users\USER\Documents\Visual Studio 2013\Projects\mp3_plugin_PS3\mp3_plugin_PS3\natives.h(49233,33): instantiation of "R nativeCall<R>(unsigned int, NativeContext *) [with R=Player]" at line 282
+              C:\Users\USER\Documents\Visual Studio 2013\Projects\mp3_plugin_PS3\mp3_plugin_PS3\natives.h(51830,40): instantiation of "R invoke<R>(unsigned int) [with R=Player]" at line 2879
+  
+C:\Users\USER\Documents\Visual Studio 2013\Projects\mp3_plugin_PS3\mp3_plugin_PS3\natives.h(241): warning 942: missing return statement at end of non-void function "nativeCall<R>(unsigned int, NativeContext *) [with R=Request_s]"
+            detected during:
+              C:\Users\USER\Documents\Visual Studio 2013\Projects\mp3_plugin_PS3\mp3_plugin_PS3\natives.h(49243,33): instantiation of "R nativeCall<R>(unsigned int, NativeContext *) [with R=Request_s]" at line 292
+              C:\Users\USER\Documents\Visual Studio 2013\Projects\mp3_plugin_PS3\mp3_plugin_PS3\natives.h(52728,54): instantiation of "R invoke<R,T1>(unsigned int, T1) [with R=Request_s, T1=char *]" at line 3777
+  
+  mp3_plugin_PS3.vcxproj -> C:\Users\USER\Documents\Visual Studio 2013\Projects\mp3_plugin_PS3\PS3_Debug\mp3_plugin_PS3.sprx
+  Cannot find the expected PRX Stub Library file: cellPrx_mp3_plugin_PS3_stub.a
